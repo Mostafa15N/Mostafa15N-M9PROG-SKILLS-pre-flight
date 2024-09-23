@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickflipKings Webshop</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Media-assets/logo/logo.png" alt="KickflipKings Logo" id="logo">
+    </header>
+
+    <main>
+        <section id="product-selection">
+            <h2>Selecteer je product</h2>
+            <div id="product-types"></div>
+        </section>
+
+        <section id="customization" style="display: none;">
+            <h2>Product Preview</h2>
+            <div id="product-preview">
+                <div id="product-preview-container">
+                    <img id="selected-product-image" src="" alt="Selected Product" style="max-width: 300px;">
+                    <img id="selected-symbol-image" src="" alt="Selected Symbol" style="display: none;">
+                </div>
+            </div>
+
+            <section id="symbol-selection">
+                <h2>Kies een symbool</h2>
+                <div id="symbols"></div>
+            </section>
+
+            <section id="color-selection">
+                <h2>Kies een kleur</h2>
+                <div id="colors"></div>
+            </section>
+
+            <section id="price-section">
+                <h2>Totaalprijs: <span id="total-price">€0,00</span></h2>
+            </section>
+
+            <button id="order-button">Bestellen</button>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
